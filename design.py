@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'design.ui'
 #
-# Created by: PyQt5 UI code generator 5.7
+# Created by: PyQt5 UI code generator 5.8
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -17,9 +17,9 @@ class Ui_MainWindow(object):
         self.plot = PlotWidget(self.centralwidget)
         self.plot.setGeometry(QtCore.QRect(160, 100, 721, 441))
         self.plot.setObjectName("plot")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(10, 100, 131, 81))
-        self.pushButton.setObjectName("pushButton")
+        self.plotButton = QtWidgets.QPushButton(self.centralwidget)
+        self.plotButton.setGeometry(QtCore.QRect(10, 100, 131, 81))
+        self.plotButton.setObjectName("plotButton")
         self.horizontalSlider = QtWidgets.QSlider(self.centralwidget)
         self.horizontalSlider.setGeometry(QtCore.QRect(180, 20, 671, 20))
         self.horizontalSlider.setOrientation(QtCore.Qt.Horizontal)
@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "Plot"))
+        self.plotButton.setText(_translate("MainWindow", "Plot"))
 
 from pyqtgraph import PlotWidget
 

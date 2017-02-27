@@ -5,6 +5,9 @@ import pyqtgraph
 
 from design import Ui_MainWindow
 
+def get_data():
+    pass
+
 class Application(Ui_MainWindow):
     def __init__(self, dialog):
         Ui_MainWindow.__init__(self)

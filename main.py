@@ -4,12 +4,13 @@ from PyQt5 import QtWidgets
 
 from design import Ui_MainWindow
 
+def hello():
+    print('hello')
 
 class Application(Ui_MainWindow):
     def __init__(self, dialog):
         Ui_MainWindow.__init__(self)
         self.setupUi(dialog)
-
 
 
 

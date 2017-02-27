@@ -26,7 +26,7 @@ if __name__ == '__main__':
     prog = Application(dialog)
 
     pgwindow = prog.plot
-    #pgwindow.setRange(yRange=[-5, 40])
+    pgwindow.setRange(yRange=[-5, 40])
 
     dialog.show()
     sys.exit(app.exec_())

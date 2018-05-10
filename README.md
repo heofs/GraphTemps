@@ -1,2 +1,2 @@
 # GraphTemps
-graph temperatures with pyqtgraph module.
+Embedding PyQtGraph in PyQt5.
